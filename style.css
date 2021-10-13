@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;margin: 0;
+}
+nav ul li{
+    padding: 0px 10px;
+    margin: auto 0px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Songs{
+    width: 80vw;
+    background-color: black;  
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 37px;
+    height: 65vh;     
+    display: flex;
+    justify-content: center; 
+}
+.player{
+    height: 122px;
+    position: sticky;
+    bottom: 0px;
+    background-color:deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.player h3{
+    padding: 6px 15px;
+    position: absolute;
+    left: 0;
+}
+.player input{
+    width: 70vw;
+    cursor: pointer;
+}
+.icons{
+    color: white;
+    display: flex;
+}
+.icons i{
+    list-style: none;
+    padding: 12px 10px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+.icons img{
+    color: white;
+    width: 20px;
+}
+.songname{
+    width: 50%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 0px;
+    text-align: center;
+}
+.albumpic{
+    width: 50%;
+    height: 100%;
+    background-color:darkseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px
+}
+.item{
+    background-color: burlywood;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-bottom: 2px solid navy;
+}
+.item img{
+    width: 20px;
+    cursor: pointer;
+}
+.albumpic img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
