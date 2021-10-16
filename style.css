@@ -64,9 +64,9 @@ nav ul li{
     color: white;
 }
 .player h3{
-    padding: 6px 15px;
+    padding: 6px 2px;
     position: absolute;
-    left: 0;
+    left: 15vw;
 }
 .player input{
     width: 70vw;
@@ -96,6 +96,7 @@ nav ul li{
     align-items: center;
     padding: 10px 0px;
     text-align: center;
+    overflow-y: scroll;
 }
 .albumpic{
     width: 50%;
@@ -109,12 +110,14 @@ nav ul li{
 }
 .item{
     background-color: burlywood;
-    height: 50px;
+    min-height: 50px;
     width: 80%;
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 16px;
+    /* justify-content: space-around; */
     margin-top: 10px;
     border-bottom: 2px solid navy;
 }
